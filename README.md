@@ -309,9 +309,9 @@ Rather than recreating existing resources (which would forfeit the free-tier Cos
 
 **Wisdom Emmanuel** — Associate Cloud/Devops Engineer
 
-🌐 [wisdomresume.site](https://wisdomresume.site)
-[GitHub](https://github.com/kloud-wiz)
-[Blog](https://https://kloudwiz.hashnode.dev)
+🌐 [wisdomresume.site](https://wisdomresume.site) <br>
+[GitHub](https://github.com/kloud-wiz) <br>
+[Blog](https://https://kloudwiz.hashnode.dev) <br>
 [Linkedin](https://linkedin.com/in/wisdom96)
 
 ---
