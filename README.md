@@ -311,7 +311,7 @@ Rather than recreating existing resources (which would forfeit the free-tier Cos
 
 🌐 [wisdomresume.site](https://wisdomresume.site) <br>
 [GitHub](https://github.com/kloud-wiz) <br>
-[Blog](https://https://kloudwiz.hashnode.dev) <br>
+[Blog](https://kloudwiz.hashnode.dev) <br>
 [Linkedin](https://linkedin.com/in/wisdom96)
 
 ---
