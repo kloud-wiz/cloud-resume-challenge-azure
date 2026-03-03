@@ -1,10 +1,10 @@
-# ☁️ Cloud Resume Challenge — Azure Edition
+# Cloud Resume Challenge — Azure Edition
 
 > A production-grade, cost efffective serverless resume hosted on Azure — built with intentional engineering, infrastructure as code, and a fully automated CI/CD pipeline. Live at [wisdomresume.site](https://wisdomresume.site)
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Live Demo](#live-demo)
@@ -118,11 +118,13 @@ cloud-resume-challenge-azure/
 ├── api/
 │   ├── __init__.py
 |   ├── function_app.py          # Azure Function entry point
-|   ├── .funcignore
-|   ├── requirements.txt
-│   └── src/
-│       ├── __init__.py  
-│       └── visitors_service.py  # Counter business logic
+|   ├── .funcignore              # Excludes files from Function App
+|   ├── requirements.txt         # Python package dependencies
+|   ├── src/
+│   |   ├── __init__.py  
+│   |   └── visitors_service.py  # Counter business logic
+|   └── tests/
+|       └── test_visitors.py     #Backend unit tests
 │
 ├── infra/
 │   └── terraform/
@@ -306,11 +308,12 @@ Rather than recreating existing resources (which would forfeit the free-tier Cos
 
 ## Author
 
-**Wisdom Emmanuel** — Cloud Engineer & Aspiring Cloud Architect
+**Wisdom Emmanuel** — Associate Cloud/Devops Engineer
 
 🌐 [wisdomresume.site](https://wisdomresume.site)
-💻 [GitHub](https://github.com/kloud-wiz)
-✍️ [Blog](https://https://kloudwiz.hashnode.dev)
+[GitHub](https://github.com/kloud-wiz)
+[Blog](https://https://kloudwiz.hashnode.dev)
+[Linkedin](https://linkedin.com/in/wisdom96)
 
 ---
 
