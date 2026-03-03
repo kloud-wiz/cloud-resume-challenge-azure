@@ -18,7 +18,6 @@
 - [Cost](#cost)
 - [Key Engineering Decisions](#key-engineering-decisions)
 - [Lessons Learned](#lessons-learned)
-- [What's Next](#whats-next)
 - [Author](#author)
 
 ---
@@ -255,7 +254,7 @@ The project uses **GitHub Actions** for fully automated deployments.
 - **Path filters** — only deploys what changed, reducing build time and risk
 - **Remote build** — Azure builds Python dependencies natively, eliminating environment mismatches
 - **Automated cache purge** — Cloudflare cache is invalidated on every successful deployment
-- **Azure AD authentication** — Federated identity replaces static credentials, following least-privilege principles
+- **Entra ID authentication** — Federated identity replaces static credentials, following least-privilege principles
 
 ---
 
