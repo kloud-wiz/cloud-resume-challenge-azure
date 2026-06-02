@@ -57,3 +57,39 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
+
+ // TYPING ANIMATION
+function typeLoop(element, text, speed = 80, pause = 4500) {
+    let i = 0;
+    let deleting = false;
+
+    function tick() {
+        if (!deleting) {
+            element.textContent = text.slice(0, i + 1);
+            i++;
+            if (i === text.length) {
+                deleting = true;
+                setTimeout(tick, pause);
+                return;
+            }
+        } else {
+            element.textContent = text.slice(0, i - 1);
+            i--;
+            if (i === 0) {
+                deleting = false;
+                setTimeout(tick, 400);
+                return;
+            }
+        }
+        setTimeout(tick, deleting ? speed / 2 : speed);
+    }
+
+    tick();
+}
+
+const typingEl = document.querySelector('.typing-target');
+if (typingEl) {
+    const text = typingEl.textContent.trim();
+    typingEl.textContent = '';
+    typeLoop(typingEl, text);
+}
